@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color:#80ced6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #618685;
+    border-radius: 50px;    
+}
+h2{
+    text-align: center;
+    color:#80ced6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:darkslategray;
+    border-radius: 50px;    
+}
+#selfie{
+    width: 200px;
+    border-radius: 40px;
+}
+#trybe-background{
+    background-image: url(../images/CAPA\ LINKEDIN_PERFIL\ PESSOAL03\ \(1\).png);
+    background-size: cover;
+    padding: 60px 30px 40px 30px;
+    background-position: 50% 25%;
+}
+.about-and-social-media{
+    padding: 30px 70px 90px 70px;
+    width: 100%;
+    margin: auto;
+    color:#618685;;
+}
+.links-in-page{
+    width: 40%;
+    text-align: center;
+    margin: 50px;
+    display: inline-block;
+
+}
+.button{
+    background-color: #fefbd8;
+    padding: 20px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+}

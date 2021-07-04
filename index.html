@@ -6,68 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Ronaldo Junior</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Meu Portfólio</h1>
-    <div id="trybe-background">
-        <img id="selfie" src="images/dinho-self.jpeg" alt="Uma selfie de Ronaldo Junior">
-    </div>
-    <div class="links-in-page">
-        <a href="#_aboutme" class="about-and-social-media button">Sobre Mim</a>
-    </div>
-    <div class="links-in-page">
-        <a href="#_myskills" class="about-and-social-media button">Minhas Skills</a>
-    </div>
-    <div class="links-in-page">
-        <a href="#_socialmedia" class="about-and-social-media button">Minhas Redes Sociais</a>
-    </div>
-    <div class="aboutme" id="_aboutme">
-        <h2>Sobre Mim</h2>
+   <nav>
        <ul>
-           <li>
-               Meu nome é <strong>Ronaldo Elias Sena de Oliveira Junior</strong>, pequeno né?! &#128540 
-           </li>
-           <li>
-                Tenho 26 anos.
-           </li>
-           <li>
-               Sou casado e tenho uma filha de 6 anos.
-           </li>
-           <li>Moro em Manaus-Am.</li>
-           <li>
-               Sou muito brincalhão e apaixonado por jogos.
-           </li>
+            <li>
+               <a href="#welcomeSection" class="navItems">Sobre</a>
+            </li>
+            <li>
+                <a href="#projects" class="navItems">Projetos</a>
+            </li>
+            <li>
+                <a href="#contact" class="navItems">Contato</a>
+            </li>
        </ul>
-    </div>
-    <div class="myskills" id="_myskills">
-        <h2>Minhas Skills</h2>
-            <p>
-                Proativo.
-            </p>
-            <p>
-                Busco sempre aprender coisas novas.
-            </p>
-            <p>
-                Comunicativo.
-            </p>
-            <p>
-                Sei programar o básico de C#.
-            </p>
-            <p>
-                Faço jogos atualmente na <strong>Godot Engine</strong>.
-            </p>
-    </div>
-    <div class="socialmedia" id="_socialmedia"> 
-        <h2>Redes Sociais</h2>
-        <div class="social-links">
-         <a href="https://github.com/ronaldosenajr" target="_blank">GitHub</a>
+   </nav>
+   <section id="welcomeSection" class="welcomeSection">
+       <h1 id = "welcomeH1">Ronaldo Junior</h1>
+       <p id="welcomeP">Estudante de desenvolvimento Web na Trybe</p>
+        <ul class="skills">
+            <li>
+                Unix/Bash
+            </li>
+            <li>
+                Git/GitHub
+            </li>
+            <li>
+                HTML
+            </li>
+            <li>
+                CSS
+            </li>
+            <li>
+                JavaScript
+            </li>
+        </ul>
+   </section>
+   <section id="projects" class="projectsHeader">
+        <h2>Alguns dos Meus Projetos</h2>
+        <button class="button">Projeto 1</button>
+        <button class="button">Projeto 2</button>
+        <button class="button">Projeto 3</button>
+   </section>
+   <section id="contact" class="contact">
+        <h1>Você Pode Me Encontrar Aqui</h1>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100001960842320" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/ronaldosenajr/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ronaldo-sena-junior-8b46b0197/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/ronaldosenajr" target="_blank"><i class="fab fa-github"></i></a>
         </div>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/ronaldo-sena-junior" target="_blank">Linkedin</a>
-        </div>
-        <div class="social-links">
-            <a href="https://www.instagram.com/ronaldosenajr/" target="_blank">Instagram</a> 
-        </div>
-    </div>
+   </section>
+   <footer>
+       <p>Todos os direitos reservados por Ronaldo Sena Junior</p>
+   </footer>
 </body>
 </html>

@@ -1,85 +1,138 @@
-h1{
-    text-align: center;
-    color:#80ced6;
+body{
+    margin: 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #618685;
-    border-radius: 50px;    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #9b2226;
+    box-shadow:0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #e9d8a6;
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 19px;
+}
+.navItems:hover{
+   background-color: #005f73;
+}
+.welcomeSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 670px;
+    background-color: #001219;
+}
+h1{
+    color: #ee9b00;
+    font-size: 50px;
+    margin-bottom: 5px;
+    font-weight: 800px;
 }
 h2{
+    margin-top: 100px;
+    color: #e9d8a6;
+    font-size: 40px;
+    font-weight: 800px;
+    text-decoration: underline;
     text-align: center;
-    color:#80ced6;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:darkslategray;
-    border-radius: 50px;    
 }
-#selfie{
-    width: 200px;
-    border-radius: 40px;
-    padding: 1px 4px 5px 1px;
-    background-color:rgba(31, 121, 58, 0.589)
+#welcomeP{
+    color: #ae2012;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 700px;
 }
-#trybe-background{
-    background-image: url(../images/CAPA\ LINKEDIN_PERFIL\ PESSOAL03\ \(1\).png);
-    background-size: cover;
-    padding: 60px 30px 40px 30px;
-    background-position: 50% 25%;
-}
-.about-and-social-media{
-    padding: 30px 70px 90px 70px;
-    width: 100%;
-    margin: auto;
-    color:#618685;;
-}
-.links-in-page{
-    width: 30%;
-    text-align: center;
-    margin: 50px 20px;
+.skills li{
+    margin-top: 100px;
+    line-height: 20px;
+    color: #e9d8a6;
     display: inline-block;
-
+    margin-left: 100px;
+}
+.skills{
+    margin-right: 10%;
+}
+.projectsHeader{
+    width: 100%;
+    height: 670px;
+    background-color: #0a9396; 
+    align-items: center;
 }
 .button{
-    background-color: #fefbd8;
-    padding: 20px 100px;
-    border-radius: 5px;
+    background-color: #005f73;
+    border: none;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 20px;
-}
-.social-links{
-    width: 30%;
-    font-size: 20px;
     display: inline-block;
-    background-color: burlywood;
-    padding: 10px 5px;
-    margin: 20px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 20px;
-    text-decoration: none;
-    text-align: center;
-}
-.aboutme{
-    line-height: 30px;
-    padding: 1px 1px 1px 1px;
     font-size: 20px;
-    color: #694764;
+    margin-top: 100px;
+    margin-left: 20%;
+    cursor: pointer;   
+    border-radius: 10%;
 }
-.myskills{
-    background-color: rgba(28, 45, 61, 0.315);
-    border-radius: 15px;
+.button:hover{
+    background-color: #031a58; 
 }
-.myskills p{
-    margin-top: 30px;
-    margin-bottom: 30px;
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 670px;
+    background-color: #005f73;
+}
+.contact h1{
+    margin-bottom: 100px;
+    color: #e9d8a6;
+}
+.social-icons a{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a333b;
+    margin: 20px 50px;
+    border-radius: 50%;
+    font-size: 50px;
+    text-decoration: none;
+    color: #dee2e4;
+}
+.social-icons a:hover{
+    background-color: #02181d;
+}
+.social-icons{
+    display: flex;
+}
+footer{
+    background-color: #001219;
     text-align: center;
-    background-color: rgba(73, 116, 145, 0.685);
-    line-height: 30px;
-    padding: 10px 1px 10px 1px;
-    border: thin groove black ;
-    border-radius: 15px;
-    font-size: 20px;
-    color: #50394c;
-    font-style: italic;
+    width: 100%;
+    height: 40px;
 }
+footer p{
+    color: #e9d8a6;
+    font-size: 10px;
+}
+
+
+
